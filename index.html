@@ -8,72 +8,67 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>ropable.com</title>
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
-	<link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" />
-	<link rel="openid2.local_id" href="https://profiles.google.com/ropable0" />
+        <!-- OpenID delegation -->
+        <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" />
+        <link rel="openid2.local_id" href="https://profiles.google.com/ropable0" />
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
+        <div class="jumbotron">
+            <div class="container">
+                <h1>ropable.com</h1>
+                <p>I'm Ashley Felton, a full-stack web developer based in Perth, Western Australia.
+                I mostly do backend and architecture, not so much UI work. Does it show? ;-)</p>
+                <p>I enjoy climbing (indoor & outdoor), hacking on things and browsing <a href="https://news.ycombinator.com">Hacker News</a>.</p>
+            </div><!-- end container -->
+        </div><!-- end jumbotron -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h4>Sundry projects:</h4>
+                    <ul>
+                        <li><a href="http://ropable.com/avenger/">Way of the Tiger: Avenger</a> - adapting an out-of-print fighting fantasy book to the web, via AngularJS (<a href="https://bitbucket.org/ropable/way-of-the-tiger-1-avenger">source</a>).</li>
+                        <li><a href="http://ropable.no-ip.org">Raspberry Pi temp monitoring</a> (<a href="https://bitbucket.org/ropable/temper">source</a>)</li>
+                        <li><a href="http://ropable.com/wiki/index.html">Personal TiddlyWiki</a></li>
+                        <li><a href="http://ropable.com/pwyky/">30k wiki in Python</a></li>
+                        <li>The <a href="http://ropable.com/blog/">old blog</a></li>
+                        <li>The <a href="http://ropable.com/gallery2/">old photo gallery</a></li>
+                    </ul>
+                </div><!-- end col -->
+                <div class="col-md-4">
+                    <h4>@me</h4>
+                    <ul>
+                        <li>Email: ashley at this domain</li>
+                        <li><a href="https://plus.google.com/u/0/105774289252638144353/posts">Google+</a></li>
+                        <li><a href="https://twitter.com/ropable">Twitter</a></li>
+                        <li><a href="https://bitbucket.org/ropable">Bitbucket</a></li>
+                        <li><a href="https://github.com/ropable">Github</a></li>
+                    </ul>
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <hr>
+            <footer>
+                <p>&copy; Ashley Felton 2005-2013</p>
+            </footer>
+        </div> <!-- /container -->
 
-    <div class="jumbotron">
-      <div class="container">
-        <h1>ropable.com</h1>
-        <p>I'm Ashley Felton, a full-stack web developer based in Perth, Western Australia.
-        I mostly do backend and architecture, not so much UI work. Does it show? ;-)</p>
-        <p>I enjoy climbing (indoor & outdoor), hacking and reading <a href="https://news.ycombinator.com">Hacker News</a>.</p>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-            <h4>Sundry projects:</h4>
-            <ul>
-                <li><a href="http://ropable.com/avenger/">Way of the Tiger: Avenger</a> - adapting an out-of-print fighting fantasy book to the web, via AngularJS (<a href="https://bitbucket.org/ropable/way-of-the-tiger-1-avenger">source</a>).</li>
-                <li><a href="http://ropable.no-ip.org">Raspberry Pi temp monitoring</a> (<a href="https://bitbucket.org/ropable/temper">source</a>)</li>
-                <li><a href="http://ropable.com/wiki/index.html">Personal TiddlyWiki</a></li>
-                <li><a href="http://ropable.com/pwyky/">30k wiki in Python</a></li>
-                <li>The <a href="http://ropable.com/blog/">old blog</a></li>
-                <li>The <a href="http://ropable.com/gallery2/">old photo gallery</a></li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <h4>@me</h4>
-            <ul>
-                <li>Email: ashley at this domain</li>
-                <li><a href="https://plus.google.com/u/0/105774289252638144353/posts">Google+</a></li>
-                <li><a href="https://twitter.com/ropable">Twitter</a></li>
-                <li><a href="https://bitbucket.org/ropable">Bitbucket</a></li>
-                <li><a href="https://github.com/ropable">Github</a></li>
-            </ul>
-        </div>
-      </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; Ashley Felton 2005-2013</p>
-      </footer>
-  </div> <!-- /container -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-
-    <!-- Piwik Tag -->
-    <script type="text/javascript">
-        var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.ropable.com/piwik/" : "http://www.ropable.com/piwik/");
-        document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-        </script><script type="text/javascript">
-        try {
-            var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-            piwikTracker.trackPageView();
-            piwikTracker.enableLinkTracking();
-        } catch( err ) {}
-    </script><noscript><p><img src="http://www.ropable.com/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
-    <!-- End Piwik Tag -->
+        <!-- Piwik Tag -->
+        <script type="text/javascript">
+            var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.ropable.com/piwik/" : "http://www.ropable.com/piwik/");
+            document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+            </script><script type="text/javascript">
+            try {
+                var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+                piwikTracker.trackPageView();
+                piwikTracker.enableLinkTracking();
+            } catch( err ) {}
+        </script><noscript><p><img src="http://www.ropable.com/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+        <!-- End Piwik Tag -->
 
     </body>
 </html>
