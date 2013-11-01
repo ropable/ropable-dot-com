@@ -6,6 +6,34 @@
          url('/fonts/norwester.ttf') format('truetype'),
          url('/fonts/norwester.svg#webfont') format('svg');
 }
+
+html,
+body {
+  height: 100%;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -30px;
+}
+#push,
+#footer {
+    height: 30px;
+}
+
+@media (max-width: 767px) {
+    #footer {
+      margin-left: -20px;
+      margin-right: -20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+}
+
 .jumbotron {
     background-color: rgb(36,33,30) !important;
     color: rgba(200,200,200,1);
