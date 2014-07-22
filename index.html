@@ -13,6 +13,7 @@
         <!-- OpenID delegation -->
         <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" />
         <link rel="openid2.local_id" href="https://profiles.google.com/ropable0" />
+        <script src="js/vendor/fittext.js"></script>
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
@@ -22,7 +23,7 @@
         <div id="wrap">
         <div class="jumbotron">
             <div class="container">
-                <h1>ropable.com</h1>
+                <h1 id="responsive_headline">ropable.com</h1>
                 <p>I'm Ashley Felton, a full-stack web developer based in Perth, Western Australia.  I mostly do backend and architecture, not so much UI work. Does it show? ;-)</p>
                 <p>I enjoy climbing (indoor & outdoor), hacking, web culture and browsing <a href="https://news.ycombinator.com">Hacker News</a>.</p>
             </div><!-- end container -->
@@ -74,6 +75,8 @@
             } catch( err ) {}
         </script><noscript><p><img src="http://www.ropable.com/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
         <!-- End Piwik Tag -->
-
+        <script>
+            window.fitText( document.getElementById("responsive_headline") );
+        </script>
     </body>
 </html>
